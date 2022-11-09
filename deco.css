@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+body,html{
+    background-color:#000000;
+    scroll-behavior:smooth;
+}
+* {
+    color:#e4e4e4;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    color: #ffffff;
+    font-size: 65px;
+}
+li,a {
+    font-weight: 500;
+    font-size:medium;
+    text-decoration: none;
+    color: #ffffff;
+}
+header {
+    z-index: 100000;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    text-align:center;
+    padding: 30px 100px; 
+    background-color: #000000;
+}
+.navi li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navi li a{transition: all 0.5s ease 0s;}
+.scroll{
+    width: 100%;
+    height:auto;
+}
+.about, .skill, .exp{
+    width:100%;
+    height:auto;
+    color:#cecece;
+    justify-content:center;
+    text-align: center;
+    padding: 275px;
+    font-size: 25px;
+}
+.about p{
+    font-size: 20px;
+    color: #9b9b9ba4;
+}
+.link{
+    justify-content:center;
+    text-align: center;
+    padding: 275px;
+    font-size: 25px;
+}
+.link a, .desc{
+    justify-content:center;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.5s ease 0s;
+}
+.back a{
+    transition: all 0.5s ease 0s;
+    display: flex;
+    font-size: 20px;
+    padding: 25px;
+    justify-content:center;
+    text-align: center;
+}
+.navi li a:hover, .link a:hover, .back a:hover{color:#3f98fd;}
+li{
+    padding: 0%;
+    font-size: 25px;
+}
+.mainhead{
+    font-size: 100px;
+    text-align: center;
+    padding: 270px;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
